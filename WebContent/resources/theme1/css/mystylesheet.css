@@ -1,0 +1,118 @@
+
+  #top{
+  float: right;
+  font-weight: bold;
+  font-family: Helvetica;
+  padding-right: 50px;
+  padding-bottom: 100px;
+  font-size: 20px;
+  text-decoration: none;
+  }
+  
+  #top:hover{
+  text-decoration: underline;
+  }
+  
+  h1 {
+padding: 50px;
+text-align: center;
+padding: 10px;
+}
+
+h3{
+text-align: center;
+}
+
+p{
+text-align: center;
+padding: 10px 10px 10px 10px;
+}
+
+img{
+height: 200px;
+width: 275px;
+float: right;
+}
+
+.bookimage:hover{
+height: 275px;
+}
+
+hr{
+background-color: black;
+height: 3px;
+}
+
+img:hover{
+cursor: pointer;
+}
+
+#promotion {
+ border-radius: 30px;
+ color: white;
+ font-weight: bold;
+ 
+}
+
+#headshelf{
+width: 940px;
+height: 250px;
+}
+
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h1 { 
+   position: absolute; 
+   top: 50px; 
+   left: 0; 
+   width: 100%; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+}
+
+
+
+.h4{
+   position: absolute; 
+   top: 0px; 
+   left: 0; 
+   width: 100%;
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+}
+
+#lower{
+   position: absolute; 
+   top: 120px; 
+   left: 0; 
+   width: 100%;
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+}
+
+#login{	
+	float:right;
+   letter-spacing: -1px;  
+   width: 30%;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+	
+}
+
+input{
+	margin-bottom: 10px;
+}
+
+input[type="submit"]:hover{
+	background-color: cyan;
+}
